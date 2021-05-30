@@ -7,6 +7,7 @@ git commit ./web/mdl33/* -m "auto deploy"
 git commit ./index.html -m "auto deploy"
 
 git push -u origin master
-git push -u githubio master
+
+git push -f -u githubio master
 
 pause
